@@ -16,21 +16,21 @@ Scheme
 	Colors
 	{
 		// base colors
-		"Orange"			"255 176 0 255"
-		"OrangeDim"			"255 176 0 120"
-		"LightOrange"		"188 112 0 128"
-		
+		"Orange"			"255 75 125 255"
+		"OrangeDim"			"255 35 85 200"
+		"LightOrange"		"255 35 85 128"
+
 		"Red"				"192 28 0 140"
 		"Black"				"0 0 0 255"
-		"TransparentBlack"	"0 0 0 196"
-		"TransparentLightBlack"	"0 0 0 90"
+		"TransparentBlack"	"0 0 0 0"
+		"TransparentLightBlack"	"0 0 0 0"
 		"RoundWinPanelBackground" "0 0 0 179"
 
 		"Blank"				"0 0 0 0"
 		"ForTesting"		"255 0 0 32"
 		"ForTesting_Magenta"	"255 0 255 255"
 		"ForTesting_MagentaDim"	"255 0 255 120"
-		
+
 		//These were ripped from SourceScheme
 		"SteamLightGreen"	"157 194 80 255"
 		"AchievementsLightGrey"		"79 79 79 255"
@@ -191,12 +191,12 @@ Scheme
 
 		"ViewportBG"		"Blank"
 		"team0"			"204 204 204 255" // Spectators
-		"team1"			"255 64 64 255" // CT's
-		"team2"			"153 204 255 255" // T's
+		"team1"			"255 75 125 255" // CT's
+		"team2"			"255 75 125 255" // T's
 
 		"MapDescriptionText"	"Orange" // the text used in the map description window
-		"CT_Blue"			"153 204 255 255"
-		"T_Red"				"255 64 64 255"
+		"CT_Blue"			"255 75 125 255"
+		"T_Red"				"255 75 125 255"
 		"Hostage_Yellow"	"Panel.FgColor"
 		"HudIcon_Green"		"0 160 0 255"
 		"HudIcon_Red"		"160 0 0 255"
@@ -214,15 +214,15 @@ Scheme
 		"SelectionSelectedBoxBg" "0 0 0 190"
 
 		// Hint message colors
-		"HintMessageFg"			"255 255 255 255"
-		"HintMessageBg" 		"0 0 0 60"
+		"HintMessageFg"			"255 75 125 255"
+		"HintMessageBg" 		"5 5 5 185"
 
 		"ProgressBarFg"			"255 30 13 255"
 
 		// Top-left corner of the "Counter-Strike" on the main screen
 		"Main.Title1.X"		"32"
 		"Main.Title1.Y"		"180"
-		"Main.Title1.Color"	"255 255 255 255"
+		"Main.Title1.Color"	"255 75 125 255"
 
 		// Top-left corner of the "SOURCE" on the main screen
 		"Main.Title2.X"		"380"
@@ -421,7 +421,7 @@ Scheme
 				"weight"		"900"
 			}
 		}
-		
+
 		"DefaultLarger"
 		{
 			"1"
@@ -475,7 +475,7 @@ Scheme
 				"weight"		"900"
 			}
 		}
-		
+
 		"DefaultVeryLarge"
 		{
 			"1"
@@ -529,7 +529,7 @@ Scheme
 				"weight"		"900"
 			}
 		}
-		
+
 		"DefaultGigantic"
 		{
 			"1"
@@ -583,7 +583,7 @@ Scheme
 				"weight"		"900"
 			}
 		}
-		
+
 		"UiHeadline"
 		{
 			"1"
@@ -594,7 +594,7 @@ Scheme
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"antialias"	"1"
 			}
-		}			
+		}
 		"DefaultUnderline"
 		{
 			"1"
@@ -823,7 +823,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana"
+				"name"		"Consolas"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"	"480 599"
@@ -844,14 +844,17 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Verdana"
+				"name"		"Source Sans Pro"
 				"tall"		"20"
 				"weight"	"700"
+				"antialias" "1"
+				"additive" "0"
+				"custom"	"1"
 				"yres"	"1024 1199"
 			}
 			"5"
 			{
-				"name"		"Verdana"
+				"name"		"Consolas"
 				"tall"		"24"
 				"weight"	"700"
 				"yres"	"1200 10000"
@@ -982,7 +985,7 @@ Scheme
 		   }
 		  }
 
-		CSweaponsSmall 
+		CSweaponsSmall
 		  {
 		   "1"
 		   {
@@ -995,7 +998,7 @@ Scheme
 		   }
 		  }
 
-		
+
 		CSTypeSmall
 		  {
 		   "1"
@@ -1008,7 +1011,7 @@ Scheme
 			"custom" "1" [$OSX]
 		   }
 		  }
-		  
+
 		  CSTypelr
 		  {
 		   "1"
@@ -1034,7 +1037,7 @@ Scheme
 			"custom" "1" [$OSX]
 		   }
 		  }
-		
+
 		Icons
 		{
 			"1"
@@ -1058,7 +1061,7 @@ Scheme
 			"antialias" "1"
 			"custom" "1" [$OSX]
 			 }
-		}		
+		}
 
 		ClientTitleFont
 		{
@@ -1290,7 +1293,7 @@ Scheme
 				"dropshadow"	"1"
 			}
 		}
-		
+
 		//Stolen from SourceScheme to make the fonts a little smaller
 		"AchievementTitleFont"
 		{
@@ -1326,9 +1329,9 @@ Scheme
 				"outline" "1"
 				"yres"	 "481 10000"
 			}
-		}	
-		
-		
+		}
+
+
 		AchievementItemTitle	[$WIN32]
 		{
 			"1"
@@ -1340,7 +1343,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		AchievementItemDescription	[$WIN32]
 		{
 			"1"
@@ -1352,7 +1355,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		AchievementPopupTitle	[$WIN32]
 		{
 			"1"
@@ -1364,7 +1367,7 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		AchievementPopupDescription	[$WIN32]
 		{
 			"1"
@@ -1376,44 +1379,44 @@ Scheme
 				"antialias"		"1"
 			}
 		}
-		
+
 		"FreezeSmall"
-		{		
+		{
 			"1"
 			{
 				"name"		"Verdana Bold" [!$OSX]
 				"name"		"Helvetica" [$OSX]
 				"tall"		"9"
 				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A			
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"antialias"	"1" [!$OSX]
-			}	
+			}
 		}
-		
+
 		"FreezeMedium"	// used by the freeze panel
-		{		
+		{
 			"1"
 			{
 				"name"		"Verdana Bold" [!$OSX]
 				"name"		"Helvetica" [$OSX]
 				"tall"		"14"
 				"weight"	"600"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A				
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"antialias"	"1"
-			}	
+			}
 		}
-		
+
 		"FreezeLarge"
-		{	
+		{
 			"1"
 			{
 				"name"		"Verdana Bold" [!$OSX]
 				"name"		"Helvetica" [$OSX]
 				"tall"		"18"
 				"weight"	"600"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A				
+				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"antialias"	"1"
-			}	
+			}
 		}
 
 		"WinPanelLarge"
@@ -1435,7 +1438,7 @@ Scheme
 			{
 				"name"		"Verdana Bold" [!$OSX]
 				"name"		"Verdana" [$OSX]
-				"tall"		"9" 
+				"tall"		"9"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"antialias"	"1" [!$OSX]
@@ -1557,7 +1560,7 @@ Scheme
 				"antialias"	"1" [!$OSX]
 			}
 		}
-		
+
 		"ScoreboardPlayersAlive"
 		{
 			"1"
@@ -1569,7 +1572,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		
+
 		"ScoreboardPlayersAliveSuffix"
 		{
 			"1"
@@ -1586,7 +1589,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"verdana" 
+				"name"		"verdana"
 				"tall"		"10" [!$OSX]
 				"tall"		"11" [$OSX]
 				"weight"	"0"
@@ -1599,7 +1602,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"verdana" 
+				"name"		"verdana"
 				"tall"		"8" [!$OSX]
 				"tall"		"9" [$OSX]
 				"weight"	"0"
@@ -1612,7 +1615,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"verdana" 
+				"name"		"verdana"
 				"tall"		"7" [!$OSX]
 				"tall"		"8" [$OSX]
 				"weight"	"0"
@@ -1642,13 +1645,13 @@ Scheme
 	{
 		BaseBorder
 		{
-			"inset" "0 0 1 1"
+			"inset" "0 0 0 0"
 			Left
 			{
 				"1"
 				{
 					"color" "Border.Dark"
-					"offset" "0 1"
+					"offset" "0 0"
 				}
 			}
 
@@ -1657,7 +1660,7 @@ Scheme
 				"1"
 				{
 					"color" "Border.Bright"
-					"offset" "1 0"
+					"offset" "0 0"
 				}
 			}
 
@@ -1679,16 +1682,16 @@ Scheme
 				}
 			}
 		}
-		
+
 		TitleButtonBorder
 		{
-			"inset" "0 0 1 1"
+			"inset" "0 0 0 0"
 			Left
 			{
 				"1"
 				{
 					"color" "Border.Bright"
-					"offset" "0 1"
+					"offset" "0 0"
 				}
 			}
 
@@ -1697,7 +1700,7 @@ Scheme
 				"1"
 				{
 					"color" "Border.Dark"
-					"offset" "1 0"
+					"offset" "0 0"
 				}
 			}
 
@@ -1722,13 +1725,13 @@ Scheme
 
 		TitleButtonDisabledBorder
 		{
-			"inset" "0 0 1 1"
+			"inset" "0 0 0 0"
 			Left
 			{
 				"1"
 				{
 					"color" "BgColor"
-					"offset" "0 1"
+					"offset" "0 0"
 				}
 			}
 
@@ -1737,7 +1740,7 @@ Scheme
 				"1"
 				{
 					"color" "BgColor"
-					"offset" "1 0"
+					"offset" "0 0"
 				}
 			}
 			Top
@@ -1761,13 +1764,13 @@ Scheme
 
 		TitleButtonDepressedBorder
 		{
-			"inset" "1 1 1 1"
+			"inset" "0 0 0 0"
 			Left
 			{
 				"1"
 				{
 					"color" "Border.Dark"
-					"offset" "0 1"
+					"offset" "0 0"
 				}
 			}
 
@@ -1776,7 +1779,7 @@ Scheme
 				"1"
 				{
 					"color" "Border.Bright"
-					"offset" "1 0"
+					"offset" "0 0"
 				}
 			}
 
@@ -1801,13 +1804,13 @@ Scheme
 
 		ScrollBarButtonBorder
 		{
-			"inset" "1 0 0 0"
+			"inset" "0 0 0 0"
 			Left
 			{
 				"1"
 				{
 					"color" "Border.Bright"
-					"offset" "0 1"
+					"offset" "0 0"
 				}
 			}
 
@@ -1816,7 +1819,7 @@ Scheme
 				"1"
 				{
 					"color" "Border.Dark"
-					"offset" "1 0"
+					"offset" "0 0"
 				}
 			}
 
@@ -1841,13 +1844,13 @@ Scheme
 
 		ScrollBarButtonDepressedBorder
 		{
-			"inset" "2 2 0 0"
+			"inset" "0 0 0 0"
 			Left
 			{
 				"1"
 				{
 					"color" "Border.Dark"
-					"offset" "0 1"
+					"offset" "0 0"
 				}
 			}
 
@@ -1856,7 +1859,7 @@ Scheme
 				"1"
 				{
 					"color" "Border.Bright"
-					"offset" "1 0"
+					"offset" "0 0"
 				}
 			}
 
@@ -1878,7 +1881,7 @@ Scheme
 				}
 			}
 		}
-		
+
 		ButtonBorder
 		{
 			"inset" "0 0 0 0"
@@ -1887,7 +1890,7 @@ Scheme
 				"1"
 				{
 					"color" "Border.Bright"
-					"offset" "0 1"
+					"offset" "0 0"
 				}
 			}
 
@@ -1905,7 +1908,7 @@ Scheme
 				"1"
 				{
 					"color" "Border.Bright"
-					"offset" "1 1"
+					"offset" "0 0"
 				}
 			}
 
@@ -1921,13 +1924,13 @@ Scheme
 
 		FrameBorder
 		{
-			"inset" "0 0 1 1"
+			"inset" "0 0 0 0"
 			Left
 			{
 				"1"
 				{
 					"color" "ControlBG"
-					"offset" "0 1"
+					"offset" "0 0"
 				}
 			}
 
@@ -1945,7 +1948,7 @@ Scheme
 				"1"
 				{
 					"color" "ControlBG"
-					"offset" "0 1"
+					"offset" "0 0"
 				}
 			}
 
@@ -1961,13 +1964,13 @@ Scheme
 
 		TabBorder
 		{
-			"inset" "0 0 1 1"
+			"inset" "0 0 0 0"
 			Left
 			{
 				"1"
 				{
 					"color" "Border.Bright"
-					"offset" "0 1"
+					"offset" "0 0"
 				}
 			}
 
@@ -1976,7 +1979,7 @@ Scheme
 				"1"
 				{
 					"color" "Border.Dark"
-					"offset" "1 0"
+					"offset" "0 0"
 				}
 			}
 
@@ -2001,7 +2004,7 @@ Scheme
 
 		TabActiveBorder
 		{
-			"inset" "0 0 1 0"
+			"inset" "0 0 0 0"
 			Left
 			{
 				"1"
@@ -2016,7 +2019,7 @@ Scheme
 				"1"
 				{
 					"color" "Border.Dark"
-					"offset" "1 0"
+					"offset" "0 0"
 				}
 			}
 
@@ -2034,7 +2037,7 @@ Scheme
 				"1"
 				{
 					"color" "ControlBG"
-					"offset" "6 2"
+					"offset" "0 0"
 				}
 			}
 		}
@@ -2042,7 +2045,7 @@ Scheme
 
 		ToolTipBorder
 		{
-			"inset" "0 0 1 0"
+			"inset" "0 0 0 0"
 			Left
 			{
 				"1"
@@ -2057,7 +2060,7 @@ Scheme
 				"1"
 				{
 					"color" "Border.Dark"
-					"offset" "1 0"
+					"offset" "0 0"
 				}
 			}
 
@@ -2089,7 +2092,7 @@ Scheme
 				"1"
 				{
 					"color" "Border.Bright"
-					"offset" "0 1"
+					"offset" "0 0"
 				}
 			}
 
@@ -2107,7 +2110,7 @@ Scheme
 				"1"
 				{
 					"color" "Border.Bright"
-					"offset" "1 1"
+					"offset" "0 0"
 				}
 			}
 
@@ -2129,7 +2132,7 @@ Scheme
 				"1"
 				{
 					"color" "Border.Bright"
-					"offset" "0 1"
+					"offset" "0 0"
 				}
 			}
 
@@ -2147,7 +2150,7 @@ Scheme
 				"1"
 				{
 					"color" "Border.Bright"
-					"offset" "1 1"
+					"offset" "0 0"
 				}
 			}
 
@@ -2163,13 +2166,13 @@ Scheme
 
 		ComboBoxBorder
 		{
-			"inset" "0 0 1 1"
+			"inset" "0 0 0 0"
 			Left
 			{
 				"1"
 				{
 					"color" "Border.Dark"
-					"offset" "0 1"
+					"offset" "0 0"
 				}
 			}
 
@@ -2178,7 +2181,7 @@ Scheme
 				"1"
 				{
 					"color" "Border.Bright"
-					"offset" "1 0"
+					"offset" "0 0"
 				}
 			}
 
@@ -2203,13 +2206,13 @@ Scheme
 
 		MenuBorder
 		{
-			"inset" "1 1 1 1"
+			"inset" "0 0 0 0"
 			Left
 			{
 				"1"
 				{
 					"color" "Border.Bright"
-					"offset" "0 1"
+					"offset" "0 0"
 				}
 			}
 
@@ -2218,7 +2221,7 @@ Scheme
 				"1"
 				{
 					"color" "Border.Dark"
-					"offset" "1 0"
+					"offset" "0 0"
 				}
 			}
 
@@ -2288,7 +2291,7 @@ Scheme
 				"1"
 				{
 					"color" "Border.BuyPreset"
-					"offset" "0 1"
+					"offset" "0 0"
 				}
 			}
 
@@ -2306,7 +2309,7 @@ Scheme
 				"1"
 				{
 					"color" "Border.BuyPreset"
-					"offset" "1 1"
+					"offset" "0 0"
 				}
 			}
 
@@ -2328,7 +2331,7 @@ Scheme
 				"1"
 				{
 					"color" "Blank"
-					"offset" "0 1"
+					"offset" "0 0"
 				}
 			}
 
@@ -2346,7 +2349,7 @@ Scheme
 				"1"
 				{
 					"color" "Border.Bright"
-					"offset" "1 1"
+					"offset" "0 0"
 				}
 			}
 
@@ -2359,7 +2362,7 @@ Scheme
 				}
 			}
 		}
-		
+
 		BlackBorder
 		{
 			"inset" "0 0 0 0"
@@ -2368,7 +2371,7 @@ Scheme
 				"1"
 				{
 					"color" "Black"
-					"offset" "0 1"
+					"offset" "0 0"
 				}
 			}
 
@@ -2386,7 +2389,7 @@ Scheme
 				"1"
 				{
 					"color" "Black"
-					"offset" "1 1"
+					"offset" "0 0"
 				}
 			}
 
@@ -2410,6 +2413,21 @@ Scheme
 		"2"		"resource/csd.ttf"
 		"3"		"resource/Cstrike.ttf"
 		"4"		"resource/CSlogo.ttf"
+		"5"
+		{
+		"name" "Source Sans Pro"
+		"font" "resource/fonts/SourceSansPro-Regular.ttf"
+		}
+		"6"
+		{
+		"name" "Source Sans Pro Bold"
+		"font" "resource/fonts/SourceSansPro-Bold.ttf"
+		}
+		"7"
+		{
+		"name" "Poiret One"
+		"font" "resource/fonts/PoiretOne-Regular.ttf"
+		}
 	}
 
 }

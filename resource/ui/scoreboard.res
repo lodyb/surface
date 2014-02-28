@@ -11,7 +11,7 @@
 		"tall"					"480"
 		"settitlebarvisible"	"0"
 	}
-	
+
     "ScoreboardBackground"
 	{
 		"ControlName"	        "ScalableImagePanel"
@@ -23,7 +23,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"image"					"../vgui/scoreboard/panel-scoreboard"
-		"scaleImage"			"1"		
+		"scaleImage"			"1"
 	}
 
 	"MapName"
@@ -167,7 +167,7 @@
 		"ypos"					"0"
 		"zpos"					"4"
 		"wide"					"80"
-		"tall"					"12"		
+		"tall"					"12"
 		"visible"				"1"
 		"enabled"				"1"
 		"labelText"				"#Cstrike_Scoreboard_PlayersAlive"
@@ -243,7 +243,7 @@
 		"ypos"					"0"
 		"zpos"					"4"
 		"wide"					"80"
-		"tall"					"12"		
+		"tall"					"12"
 		"visible"				"1"
 		"enabled"				"1"
 		"labelText"				"#Cstrike_Scoreboard_PlayersAlive"
@@ -271,7 +271,6 @@
 		"labelText"			"%t_totalteamscore%"
 		"textAlignment"		"west"
 		"font"				"ScoreboardScore"
-		"fgcolor_override"	"216 220 223 255"
 	}
 
 	"CTClanLabel"
@@ -290,7 +289,6 @@
 		"labelText"			"Clan"
 		"textAlignment"		"center"
 		"font"				"ScoreboardColumns"
-		"fgcolor_override"	"150 200 255 255"
 	}
 
 	"CTPlayerLabel"
@@ -309,7 +307,6 @@
 		"labelText"			"#Cstrike_SB_PlayerName"
 		"textAlignment"		"west"
 		"font"				"ScoreboardColumns"
-		"fgcolor_override"	"150 200 255 255"
 	}
 
 	"CTPlayerScoreLabel"
