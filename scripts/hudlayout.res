@@ -5,7 +5,7 @@
 	{
 		"fieldName"		"HudHealth"
 		"xpos"	"8"
-		"ypos"	"446"
+		"ypos"	"22446"
 		"zpos"	"0"
  		"wide"	"80"
 		"tall"  "25"
@@ -25,8 +25,8 @@
 	HudArmor
 	{
 		"fieldName"		"HudArmor"
-		"xpos"	"148"
-		"ypos"	"446"
+		"xpos"	"22148"
+		"ypos"	"22446"
 		"zpos"	"1"
 		"wide"	"80"
 		"tall"  "25"
@@ -45,8 +45,8 @@
 	HudRoundTimer
 	{
 		"fieldName" "HudRoundTimer"
-		"xpos"	"c-28"
-		"ypos"	"446"
+		"xpos"	"c-2228"
+		"ypos"	"4446"
 		"zpos"	"1"
 		"wide"	"98"
 		"tall"  "25"
@@ -67,7 +67,7 @@
 	HudAmmo
 	{
 		"fieldName" "HudAmmo"
-		"xpos"	"r157"
+		"xpos"	"r222157"
 		"ypos"	"446"
 		"zpos"	"1"
 		"wide"	"142"
@@ -95,23 +95,23 @@
 	HudAccount
 	{
 		"fieldName" "HudAccount"
-		"xpos"	"r123"
+		"xpos"	"r22123"
 		"ypos"	"394"
 		"wide"	"108"
 		"tall"  "45"
-		"visible" "1"
-		"enabled" "1"
+		"visible" "0"
+		"enabled" "0"
 
 		"PaintBackgroundType"	"2"
 		// "bgcolor_override"		"0 0 0 96"
 
-		"icon_xpos"	"9"
-		"icon_ypos"	"16"
-		"digit_xpos" "100"
-		"digit_ypos" "16"
-		"icon2_xpos" "9"
+		"icon_xpos"	"2229"
+		"icon_ypos"	"2126"
+		"digit_xpos" "2100"
+		"digit_ypos" "22216"
+		"icon2_xpos" "229"
 		"icon2_ypos" "-4"
-		"digit2_xpos" "100"
+		"digit2_xpos" "2100"
 		"digit2_ypos" "-4"
 	}
 
@@ -121,7 +121,7 @@
 		"visible"				"1"
 		"enabled"				"1"
 		"xpos"					"0"
-		"ypos"					"480"
+		"ypos"					"22480"
 		"wide"					"0"
 		"tall"					"0"
 	}
@@ -129,7 +129,7 @@
 	HudCommentary
 	{
 		"fieldName" "HudCommentary"
-		"xpos"	"c-190"
+		"xpos"	"c-22190"
 		"ypos"	"350"
 		"wide"	"380"
 		"tall"  "40"
@@ -191,8 +191,8 @@
 	HudSuit
 	{
 		"fieldName"		"HudSuit"
-		"xpos"	"140"
-		"ypos"	"432"
+		"xpos"	"22140"
+		"ypos"	"22432"
 		"wide"	"108"
 		"tall"  "36"
 		"visible" "1"
@@ -225,8 +225,8 @@
 	HudShoppingCart
 	{
 		"fieldName" "HudShoppingCart"
-		"xpos"	"64"
-		"ypos"	"240"
+		"xpos"	"2264"
+		"ypos"	"22240"
 		"wide"	"40"
 		"tall"  "40"
 		"visible" "1"
@@ -523,8 +523,8 @@
 	CBudgetPanel
 	{
 		"fieldName" "CBudgetPanel"
-		"visible" "1"
-		"enabled" "1"
+		"visible" "0"
+		"enabled" "0"
 		"wide"	 "640"
 		"tall"	 "480"
 	}
@@ -551,8 +551,8 @@
 		"fieldName" "HudRadar"
 		"visible"	"1"
 		"enabled"	"1"
-		"xpos"		"16"
-		"ypos"		"16"
+		"xpos"		"22216"
+		"ypos"		"22216"
 		"wide"		"96"
 		"tall"		"96"
 	}
@@ -634,7 +634,7 @@
 		"visible"	"0"
 		"enabled" "1"
 		"xpos"		"c-240"
-		"ypos"		"c120"
+		"ypos"		"c110"
 		"wide"		"480"
 		"tall"		"100"
 		"text_xpos"	"8"
@@ -691,12 +691,13 @@
 		"fieldName" 		"HudChat"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"10"	[$WIN32]
-		"xpos"			"42"	[$X360]
-		"ypos"			"275"
-		"wide"	 		"320"
-		"tall"	 		"120"
-		"PaintBackgroundType"	"2"
+		"xpos"			"0"	[$WIN32]
+		"xpos"			"0"	[$X360]
+		"ypos"			"0"
+		"wide"	 		"f0"
+		"tall"	 		"f0"
+		"PaintBackgroundType"	"0"
+		"bgcolor_override" "0 0 0 0"
 	}
 
 	WinPanel_Round

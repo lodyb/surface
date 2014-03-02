@@ -44,7 +44,7 @@
 		"ControlName"	"Label"
 		"fieldName"		"playerlabel"
 		"xpos"			"c-175"
-		"ypos"			"460"
+		"ypos"			"455"
 		"wide"			"350"
 		"tall"			"18"
 		"autoResize"	"0"

@@ -43,41 +43,39 @@ Scheme
 	BaseSettings
 	{
 		// vgui_controls color specifications
-		Border.Bright					"0 0 0 255"	// the lit side of a control
-		Border.Dark						"0 0 0 255"		// the dark/unlit side of a control
-		Border.Selection				"0 0 0 255"			// the additional border color for displaying the default/selected button
+		Border.Bright					"5 5 5 200"	// the lit side of a control
+		Border.Dark						"5 5 5 200"		// the dark/unlit side of a control
+		Border.Selection				"255 35 85 255"			// the additional border color for displaying the default/selected button
 
 		Button.TextColor				"White"
 		Button.BgColor					"255 255 255 8"
 		Button.ArmedTextColor			"White"
-		Button.ArmedBgColor				"0 0 0 50"
+		Button.ArmedBgColor				"255 35 85 50"
 		Button.DepressedTextColor		"White"
-		Button.DepressedBgColor			"0 0 0 128"
+		Button.DepressedBgColor			"255 35 85 128"
 		Button.FocusBorderColor			"Black"
 
 		CheckButton.TextColor			"White"
 		CheckButton.SelectedTextColor		"White"
-		CheckButton.BgColor			"0 0 0 200"
-		CheckButton.Border1  			"0 0 0 128"		// the left checkbutton border
-		CheckButton.Border2  			"0 0 0 128"	// the right checkbutton border
+		CheckButton.BgColor			"5 5 5 200"
+		CheckButton.Border1  			"255 35 85 128"		// the left checkbutton border
+		CheckButton.Border2  			"255 35 85 128"	// the right checkbutton border
 		CheckButton.Check			"LightBlue"	// color of the check itself
-		CheckButton.HighlightFgColor		"0 0 0 128"
+		CheckButton.HighlightFgColor		"255 35 85 128"
 		CheckButton.ArmedBgColor		"Blank"
 		CheckButton.DepressedBgColor		"Blank"
 		CheckButton.DisabledBgColor	   	"Blank"
 
-		ComboBoxButton.ArrowColor		"0 0 0 128"
-		ComboBoxButton.ArmedArrowColor	"0 0 0 255"
+		ComboBoxButton.ArrowColor		"255 35 85 128"
+		ComboBoxButton.ArmedArrowColor	"255 35 85 255"
 		ComboBoxButton.BgColor			"Blank"
 		ComboBoxButton.DisabledBgColor	"Blank"
-
-		Chat.TypingText					"White"
 
 		Frame.TitleTextInsetX			16
 		Frame.ClientInsetX				8
 		Frame.ClientInsetY				6
-		Frame.BgColor					"0 0 0 185"						//Overall overfalder
-		Frame.OutOfFocusBgColor			"0 0 0 110"						//Overfalder paa vinduer der er i baggrunden
+		Frame.BgColor					"5 5 5 200"						//Overall overfalder
+		Frame.OutOfFocusBgColor			"5 5 5 200"						//Overfalder paa vinduer der er i baggrunden
 		Frame.FocusTransitionEffectTime	"0.05"							// time it takes for a window to fade in/out on focus/out of focus
 		Frame.TransitionEffectTime		"0.05"							// time it takes for a window to fade in/out on open/close
 		Frame.AutoSnapRange				"0"
@@ -98,12 +96,12 @@ Scheme
 		FrameTitleBar.DisabledBgColor	"Blank"
 
 		GraphPanel.FgColor				"White"
-		GraphPanel.BgColor				"TransparentBlack"
+		GraphPanel.BgColor				"255 0 0 255"
 
-		Label.TextDullColor				"0 0 0 0" //locked text information
+		Label.TextDullColor				"DullWhite" //locked text information
 		Label.TextColor					"OffWhite"  //standard label text
 		Label.TextBrightColor			"White" //does not occur anywhere
-		Label.SelectedTextColor			"0 0 0 255" //"White" //The section you have currently selected
+		Label.SelectedTextColor			"255 35 85 255" //"White" //The section you have currently selected
 		Label.BgColor					"Blank" //useless title background
 		Label.DisabledFgColor1			"80 80 80 255" //the dropshadow of disabled options labels
 		Label.DisabledFgColor2			"20 20 20 255" // the font color of disabled options labels
@@ -112,27 +110,27 @@ Scheme
 		ListPanel.TextBgColor				"Blank"
 		ListPanel.BgColor					"TransparentBlack"
 		ListPanel.SelectedTextColor			"Black"
-		ListPanel.SelectedBgColor			"0 0 0 255"
-		ListPanel.SelectedOutOfFocusBgColor	"0 0 0 128"
+		ListPanel.SelectedBgColor			"255 35 85 255"
+		ListPanel.SelectedOutOfFocusBgColor	"255 35 85 128"
 		ListPanel.EmptyListInfoTextColor	"150 150 150 255"
 
 		Menu.TextColor					"White"
 		Menu.BgColor					"0 0 0 120"
 		Menu.ArmedTextColor				"Black"
-		Menu.ArmedBgColor				"0 0 0 255"
+		Menu.ArmedBgColor				"255 35 85 255"
 		Menu.TextInset					"6"
 
-		Panel.FgColor					"0 0 0 0"
+		Panel.FgColor					"DullWhite"
 		Panel.BgColor					"Blank"
 
-		ProgressBar.FgColor				"0 0 0 128"
+		ProgressBar.FgColor				"255 35 85 128"
 		ProgressBar.BgColor				"TransparentBlack"
 
 		PropertySheet.TextColor			"OffWhite"
 		PropertySheet.SelectedTextColor	"White"
 		PropertySheet.TransitionEffectTime	"0.25"	// time to change from one tab to another
 
-		RadioButton.TextColor			"0 0 0 0"
+		RadioButton.TextColor			"DullWhite"
 		RadioButton.SelectedTextColor	"White"
 
 		RichText.TextColor				"OffWhite"
@@ -140,22 +138,22 @@ Scheme
 		RichText.SelectedTextColor		"Black"
 		RichText.SelectedBgColor		"LightBlue"
 
-		ScrollBar.Wide					"12"
+		ScrollBar.Wide					"4"
 
-		ScrollBarButton.FgColor				"0 0 0 128"
+		ScrollBarButton.FgColor				"255 35 85 128"
 		ScrollBarButton.BgColor				"Blank"
-		ScrollBarButton.ArmedFgColor		"0 0 0 255"
+		ScrollBarButton.ArmedFgColor		"255 35 85 255"
 		ScrollBarButton.ArmedBgColor		"Blank"
-		ScrollBarButton.DepressedFgColor	"0 0 0 255"
+		ScrollBarButton.DepressedFgColor	"255 35 85 255"
 		ScrollBarButton.DepressedBgColor	"TransparentBlack"
 
-		ScrollBarSlider.FgColor				"0 64 128 64"
+		ScrollBarSlider.FgColor				"255 35 85 32"
 		ScrollBarSlider.BgColor				"0 0 0 130"
 
 		SectionedListPanel.HeaderTextColor	"White"
 		SectionedListPanel.HeaderBgColor	"Blank"
 		SectionedListPanel.DividerColor		"0 0 0 255"
-		SectionedListPanel.TextColor		"0 0 0 0"
+		SectionedListPanel.TextColor		"DullWhite"
 		SectionedListPanel.BrightTextColor	"White"
 		SectionedListPanel.BgColor			"TransparentBlack"
 		SectionedListPanel.SelectedTextColor			"Black"
@@ -163,7 +161,7 @@ Scheme
 		SectionedListPanel.OutOfFocusSelectedTextColor	"Black"
 		SectionedListPanel.OutOfFocusSelectedBgColor	"DarkBlue"
 
-		Slider.NobColor				"0 0 0 128"
+		Slider.NobColor				"255 35 85 128"
 		Slider.TextColor			"180 180 180 255"
 		Slider.TrackColor			"0 0 0 50"
 		Slider.DisabledTextColor1	"117 117 117 255"
@@ -171,10 +169,10 @@ Scheme
 
 		TextEntry.TextColor			"White"
 		TextEntry.BgColor			"TransparentBlack"
-		TextEntry.CursorColor		"0 0 0 255"
-		TextEntry.DisabledTextColor	"0 0 0 0"
+		TextEntry.CursorColor		"255 35 85 255"
+		TextEntry.DisabledTextColor	"DullWhite"
 		TextEntry.DisabledBgColor	"Blank"
-		TextEntry.SelectedTextColor	"White"
+		TextEntry.SelectedTextColor	"Black"
 		TextEntry.SelectedBgColor	"LightBlue"
 		TextEntry.OutOfFocusSelectedBgColor	"DarkBlue"
 		TextEntry.FocusEdgeColor	"0 0 0 196"
@@ -189,7 +187,7 @@ Scheme
 		WizardSubPanel.BgColor		"Blank"
 
 		// scheme-specific colors
-		MainMenu.TextColor			"White"
+		MainMenu.TextColor			"200 200 200 150"
 		MainMenu.ArmedTextColor		"LightBlue"
 		MainMenu.DepressedTextColor	"DarkBlue"
 		MainMenu.MenuItemHeight		"25"
@@ -327,7 +325,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"//Verdana
+				"name"		"Times New Roman"//Verdana
 				"tall"		"11"
 				"weight"	"1000"
 				"yres"		"480 599"
@@ -351,11 +349,11 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"Tahoma"
-				"tall"		"14"
-				"weight"	"1000"
+				"name"		"Consolas"
+				"tall"		"12"
+				"weight"	"400"
 				"yres"		"1024 1199"
-				"outline"	"1"
+				"outline"	"0"
 			}
 			"5"
 			{

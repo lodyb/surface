@@ -90,7 +90,7 @@ Scheme
 		FrameTitleBar.DisabledBgColor	"Blank"
 
 		GraphPanel.FgColor				"Orange"
-		GraphPanel.BgColor				"TransparentBlack"
+		GraphPanel.BgColor				"255"
 
 		Label.TextDullColor				"Orange"
 		Label.TextColor					"Orange"
@@ -111,9 +111,9 @@ Scheme
 		Menu.BgColor					"TransparentBlack"
 		Menu.ArmedTextColor				"Orange"
 		Menu.ArmedBgColor				"Red"
-		Menu.TextInset					"6"
+		Menu.TextInset					"0"
 
-		Chat.TypingText					"Orange"
+		Chat.TypingText					"255 0 85 255"
 
 		Panel.FgColor					"OrangeDim"
 		Panel.BgColor					"blank"
@@ -202,9 +202,9 @@ Scheme
 		"HudIcon_Red"		"160 0 0 255"
 
 		// CHudMenu
-		"ItemColor"		"255 167 42 200"	// default 255 167 42 255
-		"MenuColor"		"233 208 173 255"
-		"MenuBoxBg"		"0 0 0 100"
+		"ItemColor"		"Orange"	// default 255 167 42 255
+		"MenuColor"		"Orange"
+		"MenuBoxBg"		"5 5 5 200"
 
 		// weapon selection colors
 		"SelectionNumberFg"		"255 220 0 200"
@@ -1165,10 +1165,13 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Verdana Bold"
-				"tall"		"18"
-				"weight"	"500"
-				"antialias"	"1"
+				"name"		"Source Sans Pro"
+				"tall"		"20"
+				"weight"	"700"
+				"antialias" "1"
+				"additive" "0"
+				"custom"	"1"
+				"yres"	"1024 1199"
 			}
 		}
 		"Trebuchet24"

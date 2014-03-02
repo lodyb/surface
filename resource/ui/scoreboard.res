@@ -1,4 +1,4 @@
-"Resource/UI/ScoreBoard.res"
+"Resource/UI/ScoreBoard.res"           //INsanes HUD V6 April 2011  pure server panel scoreboard with replaced black panel
 {
 	"scores"
 	{
@@ -11,8 +11,8 @@
 		"tall"					"480"
 		"settitlebarvisible"	"0"
 	}
-
-    "ScoreboardBackground"
+	
+   "ScoreboardBackground"
 	{
 		"ControlName"	        "ScalableImagePanel"
 		"fieldName"		        "ScoreboardBackground"
@@ -20,10 +20,25 @@
 		"ypos"		            "c-186"
 		"wide"		            "600"
 		"tall"		            "372"
-		"visible"				"1"
-		"enabled"				"1"
+		"visible"				"0"   //"1"
+		"enabled"				"0"   //"1"
 		"image"					"../vgui/scoreboard/panel-scoreboard"
-		"scaleImage"			"1"
+		"scaleImage"			"1"		
+	}
+
+	"ScoreboardBackgroundINsane"      //Replace the image with black panel
+	{
+		"ControlName"		    "ImagePanel"  
+		"fieldName"		        "ScoreboardBackgroundINsane"
+		"xpos"		            "c-300"
+		"ypos"		            "c-186"
+		"wide"		            "600"
+		"tall"		            "372"
+		"pinCorner"		        "0"
+		"visible"		        "1"
+		"enabled"		        "1"
+		"fillcolor"		        "0 0 0 190" //Black "0 0 0 190" Standard Dods "123 110 59 240"
+		"scaleImage"		    "1"
 	}
 
 	"MapName"
@@ -167,7 +182,7 @@
 		"ypos"					"0"
 		"zpos"					"4"
 		"wide"					"80"
-		"tall"					"12"
+		"tall"					"12"		
 		"visible"				"1"
 		"enabled"				"1"
 		"labelText"				"#Cstrike_Scoreboard_PlayersAlive"
@@ -243,7 +258,7 @@
 		"ypos"					"0"
 		"zpos"					"4"
 		"wide"					"80"
-		"tall"					"12"
+		"tall"					"12"		
 		"visible"				"1"
 		"enabled"				"1"
 		"labelText"				"#Cstrike_Scoreboard_PlayersAlive"
@@ -271,6 +286,7 @@
 		"labelText"			"%t_totalteamscore%"
 		"textAlignment"		"west"
 		"font"				"ScoreboardScore"
+		"fgcolor_override"	"216 220 223 255"
 	}
 
 	"CTClanLabel"
@@ -289,6 +305,7 @@
 		"labelText"			"Clan"
 		"textAlignment"		"center"
 		"font"				"ScoreboardColumns"
+		"fgcolor_override"	"150 200 255 255"
 	}
 
 	"CTPlayerLabel"
@@ -307,6 +324,7 @@
 		"labelText"			"#Cstrike_SB_PlayerName"
 		"textAlignment"		"west"
 		"font"				"ScoreboardColumns"
+		"fgcolor_override"	"150 200 255 255"
 	}
 
 	"CTPlayerScoreLabel"

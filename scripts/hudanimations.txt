@@ -236,16 +236,16 @@ event HidePrimaryAmmoClipHideSecondaryAmmo
 event AccountMoneyRemoved
 {
 	Animate HudAccount		FgColor	"HudIcon_Red" Linear 0.0 0.0001
-	Animate HudAccount		FgColor	"OrangeDim" Accel 0.0 3.0
+	Animate HudAccount		FgColor	"0 0 0 0" Accel 0.0 3.0
 
-	Animate	HudAccount		Ammo2Color "HudIcon_Red" Linear 0.0 0.0001
+	Animate	HudAccount		Ammo2Color "0 0 0 0" Linear 0.0 0.0001
 	Animate HudAccount		Ammo2Color "0 0 0 0" Accel 0.0 3.0
 }
 
 //activecolor - instantly turn green, fade back to yellow
 event AccountMoneyAdded
 {
-	Animate HudAccount		FgColor	"HudIcon_Green" Linear 0.0 0.0001
+	Animate HudAccount		FgColor	"0 0 0 0" Linear 0.0 0.0001
 	Animate HudAccount		FgColor	"OrangeDim" Accel 0.0 3.0
 
 	Animate HudAccount		Ammo2Color "HudIcon_Green" Accel 0.0 0.0001
@@ -254,7 +254,7 @@ event AccountMoneyAdded
 
 event AccountMoneyInvisible
 {
-	Animate HudAccount		FgColor	"OrangeDim" Accel 0.0 0.0001
+	Animate HudAccount		FgColor	"0 0 0 0" Accel 0.0 0.0001
 	Animate HudAccount		Ammo2Color "0 0 0 0" Accel 0.0 0.0001
 }
 
@@ -283,26 +283,25 @@ event HealthLow
 event HintMessageShow
 {
 	// show the hints
-	Animate HudHintDisplay Alpha	255 Linear 0.0 0
-	Animate HudHintDisplay FgColor	"HintMessageFg"		Linear 0.0 0.01
-
+	Animate HudHintDisplay Alpha	255 Linear 0.0 0.3
+	Animate HudHintDisplay FgColor	"HintMessageFg"		Linear 0.0 0.3
 	// hide the panel after a while
-	Animate HudHintDisplay Alpha	0 Linear 1.0 4.0
+	Animate HudHintDisplay Alpha 0 Linear 0.5 3.0
 }
 
 event HintMessageHide
 {
-	Animate HudHintDisplay Alpha	0 Linear 0.0 0.5
+	Animate HudHintDisplay Alpha	0 Linear 0.0 0.3
 }
 
 event HintMessageLower
 {
-	Animate HudHintDisplay YOffset	"60"		Deaccel	0.0		0.01
+	Animate HudHintDisplay YOffset	"60"		Deaccel	0.0		1.0
 }
 
 event HintMessageRaise
 {
-	Animate HudHintDisplay YOffset	"0"		Deaccel	0.0		0.4
+	Animate HudHintDisplay YOffset	"0"		Deaccel	0.0		1.0
 }
 
 event KeyHintMessageShow
